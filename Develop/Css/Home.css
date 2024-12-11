@@ -1,0 +1,459 @@
+@font-face {
+    font-family: "yekan bold";
+    src: url(../Font/IRANYekanBold.ttf);
+}
+
+@font-face {
+    font-family: "yekan medium";
+    src: url(../Font/IRANYekanMedium.ttf);
+}
+
+@font-face {
+    font-family: "yekan regular";
+    src: url(../Font/IRANYekanRegular.ttf);
+}
+
+
+body {
+    background-color: #121212;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/****** MENU ******/
+.menu {
+    position: relative;
+    margin-left: 20px;
+}
+
+.menu .logo {
+    color: #FABC11;
+    margin-top: 25px;
+    margin-left: 90px;
+    width: 80px;
+    height: 80px;
+}
+
+.menu ul {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: #F4F2F2;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "yekan medium";
+}
+
+.menu ul .li-exp,
+.menu ul .li-prof {
+    width: 50px;
+}
+
+.menu ul .li-comm {
+    width: 80px;
+}
+
+.menu ul .li-coll {
+    width: 70px;
+}
+
+.menu ul .li-blog {
+    width: 40px;
+}
+
+.menu .btn-creat {
+    position: absolute;
+    right: 130px;
+    top: 45px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #F4F2F2;
+    background-image: linear-gradient(to bottom, #5d2488, #192d7d);
+    cursor: pointer;
+    font-family: "yekan regular";
+    font-size: 15px;
+}
+
+/****** END MENU ******/
+
+
+/****** POSTER ******/
+.poster {
+    margin: 30px auto;
+    height: 500px;
+    background-color: #0E0F3F;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px #010215, -2px -2px 5px #f0e7e752;
+}
+
+.img {
+    width: 500px;
+    height: 460px;
+    position: absolute;
+    right: 200px;
+    top: 150px;
+}
+
+.poster .title {
+    font-size: 36px;
+    font-family: "yekan bold";
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 370px;
+    color: #F4F2F2;
+}
+
+.poster .para {
+    font-size: 18px;
+    font-family: "yekan regular";
+    width: 300px;
+    color: #b8b4b4;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.poster .btn-exp {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-content: center;
+    width: 130px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    color: #F4F2F2;
+    background-image: linear-gradient(to bottom, #5d2488, #192d7d);
+    cursor: pointer;
+    font-family: "yekan regular";
+    font-size: 15px;
+}
+
+.poster .btn-wallet {
+    display: inline-block;
+    left: 10px;
+    top: 15px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    color: #F4F2F2;
+    background-image: linear-gradient(to bottom, #5d2488, #192d7d);
+    border-radius: 10px;
+    border-image-slice: 0;
+    cursor: pointer;
+    font-family: "yekan regular";
+    font-size: 15px;
+    position: relative;
+}
+
+.poster span {
+    background-color: #0E0F3F;
+    width: 123px;
+    height: 34px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    border-radius: 7px;
+    align-content: center;
+}
+
+/****** END POSTER ******/
+
+
+/****** NFT ******/
+.nft {
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.nft .hld1 {
+    width: 160px;
+    position: absolute;
+    left: 150px;
+    top: 670px;
+}
+
+.nft .pic1 {
+    position: relative;
+    top: 115px;
+    left: 10px;
+    width: 180px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.nft .hld2 {
+    width: 160px;
+    position: absolute;
+    left: 380px;
+    top: 750px;
+}
+
+.nft .pic2 {
+    position: relative;
+    top: 180px;
+    left: 60px;
+    width: 180px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.nft .hld3 {
+    width: 160px;
+    position: absolute;
+    left: 600px;
+    top: 580px;
+}
+
+.nft .pic3 {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 180px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+/****** END NFT ******/
+
+
+/****** ABOUT US ******/
+.about-us {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.about-us .title2 {
+    width: 150px;
+    background: linear-gradient(to right, #CC29A8, #999999);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 120px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: "yekan bold";
+}
+
+.about-us .title3 {
+    color: #F4F2F2;
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-family: "yekan medium";
+}
+
+.about-us .para2 {
+    color: #858585ec;
+    margin-left: 20px;
+    width: 350px;
+    font-family: "yekan regular";
+    font-size: 16px;
+}
+
+.about-us .btn-more {
+    margin-top: 25px;
+    margin-left: 20px;
+    align-content: center;
+    width: 130px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    color: #F4F2F2;
+    background-image: linear-gradient(to bottom, #5d2488, #192d7d);
+    cursor: pointer;
+    font-family: "yekan bold";
+    font-size: 15px;
+}
+
+/****** END ABOUT US ******/
+
+
+/****** TOP COLLECTION ******/
+.collection {
+    margin-left: 130px;
+    margin-top: 100px;
+    height: 530px;
+    position: relative;
+}
+
+.collection .title4 {
+    color: #F4F2F2;
+    font-size: 26px;
+    margin-left: 15px;
+    margin-top: 25px;
+    font-family: "yekan medium";
+}
+
+.collection .card1 {
+    width: 350px;
+    height: 340px;
+    position: absolute;
+    left: 2%;
+    top: 150px;
+}
+
+.collection .title6 {
+    font-family: "yekan bold";
+    color: #F4F2F2;
+    font-size: 16px;
+    position: absolute;
+    bottom: 330px;
+    left: 75px;
+    width: 150px;
+}
+
+.collection .imgCrd1 {
+    width: 270px;
+    height: 190px;
+    position: absolute;
+    bottom: 120px;
+    left: 70px;
+    border-radius: 15px;
+}
+
+.collection .card2 {
+    width: 380px;
+    height: 420px;
+    position: absolute;
+    left: 35%;
+    bottom: 0px;
+}
+
+.collection .title5 {
+    font-family: "yekan bold";
+    color: #F4F2F2;
+    font-size: 18px;
+    position: absolute;
+    bottom: 365px;
+    left: 490px;
+    width: 150px;
+}
+
+.collection .imgCrd2 {
+    width: 290px;
+    height: 250px;
+    position: absolute;
+    bottom: 100px;
+    left: 490px;
+    border-radius: 15px;
+}
+
+.collection .card3 {
+    width: 350px;
+    height: 340px;
+    position: absolute;
+    left: 69%;
+    top: 150px;
+}
+
+.collection .title7 {
+    font-family: "yekan bold";
+    color: #F4F2F2;
+    font-size: 16px;
+    position: absolute;
+    bottom: 335px;
+    left: 915px;
+    width: 150px;
+}
+
+.collection .imgCrd3 {
+    width: 270px;
+    height: 190px;
+    position: absolute;
+    bottom: 130px;
+    left: 915px;
+    border-radius: 15px;
+}
+
+/****** END TOP COLLECTION ******/
+
+
+/****** NEW COLLECTION ******/
+.new-coll {
+    margin-top: 80px;
+    margin-left: 130px;
+    height: 1000px;
+}
+
+.new-coll .title8 {
+    margin-left: 15px;
+    color: #F4F2F2;
+    font-size: 26px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: "yekan bold";
+}
+
+.new-coll .col-n1 {
+    margin-left: 15px;
+    height: 400px;
+    width: 370px;
+}
+
+.new-coll img {
+    width: 340px;
+    height: 400px;
+    position: absolute;
+}
+
+.new-coll .col-n1 .pic,
+.new-coll .col-n2 .pic,
+.new-coll .col-n3 .pic {
+    width: 300px;
+    height: 260px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+.new-coll .col-n2,
+.new-coll .col-n3 {
+    height: 400px;
+    width: 380px;
+    margin-left: 50px;
+}
+
+.new-coll .col-n4 {
+    margin-left: 15px;
+    height: 400px;
+    width: 370px;
+    margin-top: 50px;
+}
+
+.new-coll .col-n4 .pic,
+.new-coll .col-n5 .pic,
+.new-coll .col-n6 .pic {
+    width: 300px;
+    height: 260px;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+.new-coll .col-n5,
+.new-coll .col-n6 {
+    height: 400px;
+    width: 380px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+/****** END NEW COLLECTION ******/
